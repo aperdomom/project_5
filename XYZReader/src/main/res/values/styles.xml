@@ -3,7 +3,7 @@
     <style name="Theme.Custom" parent="@style/Theme.AppCompat.Light.NoActionBar">
         <item name="android:colorPrimary">@color/theme_primary</item>
         <item name="android:colorPrimaryDark">@color/theme_primary_dark</item>
-        <item name="android:textColor">@android:color/holo_green_dark</item>
+        <item name="android:colorAccent">@color/theme_accent</item>
     </style>
 
     <!-- text appearance. -->
@@ -11,6 +11,7 @@
         <item name="android:textSize">20sp</item>
         <item name="android:textColor">@color/text_header</item>
         <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif</item>
     </style>
     <style name="Text.header.small" parent="@android:style/TextAppearance">
         <item name="android:textSize">10sp</item>
